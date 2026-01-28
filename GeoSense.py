@@ -1,6 +1,8 @@
 from ultralytics import YOLO 
 import cv2
 
+# antes de tudo não esqueça
+# "git add GeoSense.py" -> vai adicionar as modificações no github. "git commit -m "exemplo" -> vai informar oq foi alterado e o "git push" vai adicionar realmente ao github 
 # carrega o modelo pré-treinado
 model = YOLO("yolov8n.pt")
 
