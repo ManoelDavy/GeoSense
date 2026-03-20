@@ -142,7 +142,7 @@ Arquitetura híbrida: SQLite local por fazenda + PostgreSQL central opcional.
 
 ---
 
-## **4.1 Estratégia de Sincronização (SQLite → PostgreSQL)**
+### **4.1 Estratégia de Sincronização (SQLite → PostgreSQL)**
 
 Cada fazenda opera de forma independente com SQLite local. Quando houver conexão, ocorre sincronização com PostgreSQL via PowerSync.
 
