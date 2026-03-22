@@ -1,10 +1,3 @@
-!pip install torch torchvision
-!pip install git+https://github.com/facebookresearch/segment-anything
-!pip install opencv-python matplotlib
-
-!mkdir -p modelo
-!wget -P modelo https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
-
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 import torch
 
